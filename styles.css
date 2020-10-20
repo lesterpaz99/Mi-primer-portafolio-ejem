@@ -53,3 +53,17 @@ img {
     letter-spacing: 0.03rem;
     word-spacing: 0.16rem;
 }
+
+.main-header__menu ul li {
+    display: inline-block;
+    margin: 0 2.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.16rem;
+}
+.main-header__menu ul li:last-child {
+    border: .2rem solid black;
+    padding: .5rem;
+    border-radius: .55rem;
+}
