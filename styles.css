@@ -200,7 +200,7 @@ img {
 
 .contact {
     background-color: var(--main-color);
-    padding: 3.2rem;
+    padding: 2rem;
     width: 100%;
 
 }
@@ -236,5 +236,17 @@ img {
 
 .social-media img {
     width: 3.2rem;
-    margin: 1.2rem;
+    margin: 1.2rem 1.2rem 0;
+}
+
+.main-footer {
+    background-color: var(--main-color);
+}
+.main-footer p{
+    color: white;
+    font-weight: 600;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.04rem;
+    text-align: start;
+    padding: 0 5.2rem 1rem;
 }
