@@ -202,7 +202,7 @@ img {
     background-color: var(--main-color);
     padding: 2rem;
     width: 100%;
-
+    border-top: 2px solid gainsboro;
 }
 .contact h3 {
     color: white;
