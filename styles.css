@@ -7,6 +7,8 @@
 :root {
     font-size: 62.5%;
     --main-color: rgb(100, 196, 234);
+    --shadow-color: #ccc;
+    --title-color: rgba(0, 0, 0, 0.7);
 }
 
 body {
@@ -28,12 +30,12 @@ img {
 }
 
 .main-header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--shadow-color);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow:  0 -1rem 1.5rem 1.2rem #ccc;
+    box-shadow:  0 -1rem 1.5rem 1.2rem var(--shadow-color);
 }
 .main-header__logo {
     padding: 1.2rem;
@@ -76,12 +78,60 @@ img {
 .main-content__text {
     font-size: 4rem;
     font-weight: bold;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.1rem;
 }
 .main-content__text span {
     color: var(--main-color);
+    
 }
 .main-content__image img {
     border-radius: 1.2rem;
     max-width: 40rem;
-    padding: 10rem 0;
+    padding: 8rem 0;
+}
+
+.portfolio {
+    max-width: 85%;
+    margin: 0 auto;
+}
+.portfolio__title {
+    text-transform: uppercase;
+    padding: 2.5rem;
+    margin-left: 1rem;
+    color: var(--title-color);
+}
+.portfolio__content {
+    box-shadow:  0 0 0.2rem 0.1rem var(--shadow-color);
+    border-radius: .4rem;
+    display: flex;
+    padding: 2rem;
+}
+.portfolio__text {
+    font-size: 1.7rem;
+}
+.portfolio__text h3 {
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    padding: 1.5rem 1.5rem 0;
+}
+.portfolio__text h6 {
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    margin: 0 1.5rem 1.5rem;
+    color: var(--title-color);
+}
+.portfolio__text p {
+    margin: 1.5rem 1.5rem 3.2rem;
+    font-weight: 600;
+}
+.portfolio__text p span {
+    color: var(--title-color);
+    margin-left: 0.5rem;
+}
+.portfolio__image {
+    max-width: 60rem;
+}
+.portfolio__image img {
+    border-radius: 1.5rem;
 }
