@@ -13,7 +13,54 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* img {
-    width: 100%;
-} */
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black
+}
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main-header {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header__logo {
+    padding: 1.2rem;
+    margin-left: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+.main-header__logo>a img {
+    min-width: 5.12rem;
+}
+.main-header__logo a:nth-child(2) {
+    display: inline-block;
+    margin-left: .55rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.16rem;
+}
+
+.main-header__menu ul li {
+    display: inline-block;
+    margin: 0 2.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.16rem;
+}
+.main-header__menu ul li:last-child {
+    border: .2rem solid black;
+    padding: .5rem;
+    border-radius: .55rem;
+}
