@@ -9,6 +9,7 @@
     --main-color: rgb(100, 196, 234);
     --shadow-color: #ccc;
     --title-color: rgba(0, 0, 0, 0.7);
+    --articles-color: rgb(249, 249, 252);
 }
 
 body {
@@ -92,23 +93,25 @@ img {
 }
 
 .portfolio {
-    max-width: 85%;
+    max-width: 92%;
     margin: 0 auto;
 }
 .portfolio__title {
     text-transform: uppercase;
-    padding: 2.5rem;
+    padding: 0 2.5rem;
     margin-left: 1rem;
+    font-size: 2.5rem;
     color: var(--title-color);
 }
 .portfolio__content {
-    box-shadow:  0 0 0.2rem 0.1rem var(--shadow-color);
-    border-radius: .4rem;
+    background-color: var(--articles-color);
+    border-radius: 1rem;
     display: flex;
-    padding: 2rem;
+    padding: 2.2rem;
+    margin: 2.5rem;
 }
 .portfolio__text {
-    font-size: 1.7rem;
+    font-size: 1.85rem;
 }
 .portfolio__text h3 {
     font-size: 3.5rem;
@@ -123,6 +126,7 @@ img {
 }
 .portfolio__text p {
     margin: 1.5rem 1.5rem 3.2rem;
+    padding-right: 5rem;
     font-weight: 600;
 }
 .portfolio__text p span {
@@ -133,5 +137,5 @@ img {
     max-width: 60rem;
 }
 .portfolio__image img {
-    border-radius: 1.5rem;
+    border-radius: 1.3rem;
 }
