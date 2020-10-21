@@ -101,10 +101,11 @@ img {
     color: var(--title-color);
 }
 
-.portfolio {
+.sections {
     max-width: 92%;
     margin: 0 auto;
 }
+
 .portfolio__content {
     background-color: var(--articles-color);
     border-radius: 1rem;
@@ -143,10 +144,6 @@ img {
     border-radius: 1.3rem;
 }
 
-.experience {
-    max-width: 92%;
-    margin: 0 auto;
-}
 .experience>div {
     display: flex;
     justify-content: space-between;
@@ -199,4 +196,45 @@ img {
 }
 .experience__text button a {
     color: var(--main-color);
+}
+
+.contact {
+    background-color: var(--main-color);
+    padding: 3.2rem;
+    width: 100%;
+
+}
+.contact h3 {
+    color: white;
+}
+
+.contact__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.2rem;
+}
+.contact__content #email {
+    padding: 1rem;
+    border-radius: .55rem;
+    border: 1px solid white;
+    font-size: 1.7rem;
+    margin-left: 1.5rem;
+}
+.contact__content .button {
+    background-color: transparent;
+    color: white;
+    padding: 1rem 1.6rem;
+    border-radius: .55rem;
+    border: 2px solid white;
+    font-size: 1.7rem;
+    margin-left: 1.5rem;
+}
+.contact__content .button:hover {
+    cursor: pointer;
+}
+
+.social-media img {
+    width: 3.2rem;
+    margin: 1.2rem;
 }
