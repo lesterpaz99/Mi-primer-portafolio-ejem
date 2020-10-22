@@ -151,17 +151,13 @@ img {
     margin: 1rem 0;
 }
 .experience__content {
-    background-image: url(./img/casita.jpg);
-    background-repeat: no-repeat;
-    background-size: 65% 60%;
-    background-position: top;
-    background-color: rgb(234, 234, 234);
-    max-width: 40%;
-    min-height: 45rem;
+    background-color: #F0FAFF;
+    max-width: 45%;
+    min-height: fit-content;
     border-radius: 1rem;
     padding: 3rem;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 .experience__text {
     background-color: white;
