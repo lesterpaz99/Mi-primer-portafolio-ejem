@@ -38,6 +38,7 @@ img {
     position: fixed;
     top: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     box-shadow:  0 -1rem 1.5rem 1.2rem var(--shadow-color);
@@ -79,7 +80,9 @@ img {
 }
 
 .main-content {
+    width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 9.2rem;
@@ -89,6 +92,7 @@ img {
     font-weight: bold;
     letter-spacing: 0.03rem;
     word-spacing: 0.1rem;
+    
 }
 .main-content__text span {
     color: var(--main-color);
