@@ -32,7 +32,11 @@ img {
 
 .main-header {
     border-bottom: 1px solid var(--shadow-color);
-    width: 100%;
+    background-color: white;
+    width: 100vw;
+    height: 9.2rem;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +72,7 @@ img {
     border: .2rem solid black;
     padding: .5rem;
     border-radius: .55rem;
-    margin-right: 2.85rem;
+    margin-right: 4rem;
 }
 
 
@@ -76,6 +80,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 9.2rem;
 }
 .main-content__text {
     font-size: 4rem;
