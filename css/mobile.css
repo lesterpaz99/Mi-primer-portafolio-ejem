@@ -1,0 +1,78 @@
+body {
+    min-width: 100vw;
+}
+
+.sections {
+    min-width: 100%;
+}
+
+.main-content__image {
+    width: auto;
+}
+
+.main-content__image img {
+    width: 30rem;
+}
+.main-content {
+    max-width: 96%;
+    margin: 1rem 1%;
+    padding: .5rem 1%;
+}
+.main-content__text {
+    padding: 3rem 0 0 1rem;
+    font-size: 3rem;
+}
+
+.subtitles {
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 1.5rem;
+    font-size: 2rem;
+}
+.portfolio__content {
+    padding: 1rem;
+    margin: 2rem 0;
+}
+.portfolio__text h6 {
+    margin: 0 1rem 1rem;
+}
+.portfolio__text p {
+    margin: 1rem 1.2rem 2rem;
+}
+
+.experience {
+    margin-top: 1.5rem;
+}
+.experience>div {
+    padding: 0;
+    margin: 1rem 0 0;
+}
+.experience__content {
+    padding: 1rem;
+    width: 100%;
+}
+.experience__text h3 {
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+.experience__text p {
+    margin-bottom: 1rem;
+}
+
+.contact {
+    padding: 2.5rem 0.5rem;
+    border-top: none;
+}
+.contact__content {
+    display: inline-block;
+    padding: 1.2rem;
+    text-align: center;
+}
+.contact__content #email {
+    margin: 1.2rem 0;
+    font-size: 1.6rem;
+}
+.contact__content .button {
+    font-size: 1.6rem;
+    margin-left: 0;
+}
