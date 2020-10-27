@@ -64,13 +64,14 @@ body {
     border-top: none;
 }
 .contact__content {
-    display: inline-block;
+    display: block;
     padding: 1.2rem;
     text-align: center;
 }
 .contact__content #email {
     margin: 1.2rem 0;
     font-size: 1.6rem;
+    width: 90%;
 }
 .contact__content .button {
     font-size: 1.6rem;
