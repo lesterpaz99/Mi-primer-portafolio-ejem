@@ -4,7 +4,7 @@ h3 {
 }
 
 .main-header {
-    position: static;
+    position: relative;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
