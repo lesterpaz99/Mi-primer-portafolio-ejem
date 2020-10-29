@@ -21,9 +21,10 @@ body {
     z-index: var(--z-fixed);
 }
 .main-header::after {
-    content: "🠻";
+    content: "^";
     position: absolute;
-    bottom: -5px;
+    bottom: -8px;
+    transform: rotate(180deg);
 }
 .main-header__menu {
     position: fixed;
