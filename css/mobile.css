@@ -19,6 +19,8 @@ body {
     padding: 1.2rem;
     height: 17.2vh;
     z-index: var(--z-fixed);
+    box-shadow: none;
+    border: none;
 }
 .main-header::after {
     content: "^";
@@ -30,15 +32,18 @@ body {
     position: fixed;
     height: 100vh;
     top: -100vh;
-    background-color: inherit;
+    background-color: rgba(255, 255, 255, .9);
     width: 100vw;
-    height: calc(100vh - 16vh);
     padding: 1rem;
     z-index: var(--z-back);
-    transition: .35s;
+    transition: .3s;
+}
+.main-header__menu ul {
+    position: relative;
+    top: 16vh;
 }
 .main-header__menu.is-active {
-    top: 16vh;
+    top: 0;
 }
 .main-header__menu ul li {
     margin: 3rem 0 0;
@@ -50,6 +55,7 @@ body {
     background-color: inherit;
     border-radius: 1rem;
     justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
 }
 
 .main-content__image {
