@@ -1,7 +1,5 @@
 const mobile = window.matchMedia("only screen and (max-width: 476px)");
 
-mobile.addEventListener("change", validation);
-
 const menuButton = document.querySelector(".main-header__logo");
 const menu = document.querySelector(".main-header__menu");
 const menuItems = document.querySelectorAll(".menu-item");
