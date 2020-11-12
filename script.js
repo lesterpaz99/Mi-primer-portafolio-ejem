@@ -9,6 +9,7 @@ validation(mobile);
 
 function openMenu() {
     menu.classList.toggle("is-active");
+    menuButton.classList.toggle("shadow-active");
 }
 
 function validation(event) {

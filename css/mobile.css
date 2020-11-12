@@ -27,6 +27,7 @@ body {
     position: absolute;
     bottom: -8px;
     transform: rotate(180deg);
+    color: rgba(0, 0, 0, .8);
 }
 .main-header__menu {
     position: fixed;
@@ -55,7 +56,11 @@ body {
     background-color: inherit;
     border-radius: 1rem;
     justify-content: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+}
+
+.shadow-active {
+    transition: 0.2s;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
 .main-content__image {

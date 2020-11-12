@@ -12,6 +12,10 @@
     --articles-color: rgb(249, 249, 252);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.65rem;
     font-family: 'Source Sans Pro', sans-serif;
